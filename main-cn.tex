@@ -1,0 +1,40 @@
+\documentclass[10pt]{beamer}
+
+\usetheme[block=fill, sectionpage=none]{metropolis}
+% If you section name page, remove sectionpage=none
+\useoutertheme{infolines}
+\usecolortheme{custompku} % PKU color
+\useinnertheme{metropolis}
+\setbeamertemplate{itemize items}[circle]
+
+\usepackage{ctex} % add this to use Chinese
+
+% \usepackage{fontspec} % use this to change fonts
+
+\title{又一个北大风格的Beamer模板}
+\subtitle{基于Metropolis主题修改配色}
+\date{\today}
+\author[短作者名]{作者名}
+\institute{北京大学XX学院}
+\titlegraphic{\hfill\includegraphics[height=1.5cm]{pkulogo.pdf}}
+
+\begin{document}
+  \maketitle
+
+  \begin{frame}{第一张}
+    你好，世界！
+    \begin{block}{块}
+        这是一个块。
+    \end{block}
+    
+    \begin{itemize}
+        \item 第一项
+        \item 第二项
+    \end{itemize}
+  \end{frame}
+  
+  
+  \begin{frame}[standout]
+    感谢聆听！
+  \end{frame}
+\end{document}
